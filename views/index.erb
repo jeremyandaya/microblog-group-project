@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style>
+<body>
+	<!-- <p>length? <%= @users.length %></p> -->
+	<div style="text-align:center;">
+		<h1>Welcome to E-Chirp</h1>
+		<!-- <button type="button">Login</button>
+		<button type="button">Signup</button> -->
+		<img src="/images/chirp.jpg"/>
+		<br/>
+
+		<a href="/login" class="myButton">LOGIN</a>
+		<a href="/signup" class="myButton">SIGNUP</a>
+	</div>
+	<!-- <div style="border:1px solid black;">
+		<h1>Users in the database</h1>
+		<% @users.each do |u| %>
+		<p>
+			Name: <%= u.name %> <br/>
+		    Email: <%= u.email %> <br/>
+		    Password: <%= u.password %> <br/>
+            Chirp: <%= u.post %> <br/>
+		</p>
+		<% end %>
+	</div> -->
+
+	
+</body>
+</html>
